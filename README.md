@@ -24,12 +24,14 @@ A terminal-based YouTube Music player that plays audio-only streams using `mpv` 
 
 Launch this tool in an isolated environment:
 
-1. Via uvx:
+via uvx:
 ```
 uvx yt-music-tui
 ```
 
-2. Via pipx:
+or
+
+via pipx:
 ```
 pipx install yt-music-tui
 yt-music-tui
