@@ -20,6 +20,21 @@ A terminal-based YouTube Music player that plays audio-only streams using `mpv` 
 
 > Note: This program does **not** download or save audio files. It streams audio directly from YouTube.
 
+## Quick launch via pipx/uvx
+
+Launch this tool in an isolated environment:
+
+1. Via uvx:
+```
+uvx yt-music-tui
+```
+
+2. Via pipx:
+```
+pipx install yt-music-tui
+yt-music-tui
+```
+
 ## Installation
 
 1. **Install system dependencies**
@@ -32,6 +47,11 @@ A terminal-based YouTube Music player that plays audio-only streams using `mpv` 
    On Arch/Manjaro:
    ```bash
    sudo pacman -S mpv python
+   ```
+
+   On macOS:
+   ```bash
+   brew install mpv python@3.14
    ```
 
 2. **Install Python dependencies**
